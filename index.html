@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Navneet</title>
+
+  </head>
+  <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+
+  <body>
+
+    <div class="Left">
+    <logo>
+      <img src="images/hyphen.png" alt="">
+
+      </logo>
+    <h1>
+      6 MONTH CERTIFICATE PROGRAM
+<br>IN BIG DATA & DATA SCIENCE</h1>
+<br>
+ <h3>Interactive session discussing course structure, curriculum and
+timings about upcoming batches. </h3>
+<br>
+<logo> <img src="images/tm-logo.png" alt="">
+
+  </logo>
+  </div>
+  <div class="Right">
+      <h4>For Enquiries</h4>
+
+
+
+          <h3>1800-123-1260</h3>
+
+      <form class="center" action="" method="Post" >
+          <h2>ONLINE  FREE</h2>
+          <div class="orange">
+          <hr>
+          <h5>4th June | 5th June | 9 PM IST</h5>
+          </div>
+          <input type="text" placeholder="First Name"  >
+          <br>
+          <input type="text" placeholder="Last Name" >
+          <br>
+          <input type="email" placeholder="Email" >
+          <br>
+          <input type="tel"  placeholder="Phone" >
+          <br>
+        <div id="demo" class="js"></div>
+          <input type="submit" class"orange"  value="Save My Spot">
+          </form>
+ </div>
+
+ <script  type="text/javascript">
+   var countDownDate= new Date("June 5, 2019 00:00:00").getTime();
+   var countDownfunction = setInterval(function(){
+     var now = new Date().getTime();
+     var distance = countDownDate - now;
+     var days = Math.floor(distance/(1000*3600*24));
+     var hours= Math.floor((distance%(1000*3600*24))/(1000*3600));
+     var minutes = Math.floor((distance%(1000*3600))/(1000*60));
+     var seconds = Math.floor((distance%(1000*60))/(1000));
+     document.getElementById("demo").innerHTML= days+"Days " + hours + "Hr " + minutes + "Min " + seconds + "Sec " ;
+     if(distance < 0){
+       clearInterval(countDownfunction);
+       document.getElementById("demo").innerHTML="EXPIRED";
+
+     }
+   },1000);
+
+ </script>
+
+  </body>
+</html>
